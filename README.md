@@ -2,7 +2,7 @@
 
 This project tackles the classic Titanic survival prediction challenge on Kaggle. It demonstrates a complete, end-to-end machine learning workflow, employing advanced techniques for feature engineering, imputation, and model ensembling to achieve a robust and accurate prediction model.
 
-**Project Notebook**: [`titanic_project_with_stacking.ipynb`](./titanic_project_with_stacking.ipynb)
+**Project Notebook**: [`titanic-ver1.ipynb`](./titanic-ver1.ipynb)
 
 ---
 
