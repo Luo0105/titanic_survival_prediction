@@ -50,6 +50,7 @@ To leverage the strengths of multiple algorithms, a **Stacking Ensemble** model 
 * **Submission**: The final model was used to generate predictions on the test set, resulting in the submission file `submission_stacking.csv`.
 
 #### Key Learnings:
-1.  **Power of Ensembling**: This project clearly demonstrated that `StackingClassifier` can outperform individual models by combining their diverse strengths. It's a powerful technique for boosting performance.
+1.  **The Decisive Role of Feature Engineering**: This project underscored that feature engineering is arguably the most critical step for elevating a model's performance ceiling. Operations like extracting `Title` from `Name` or creating `FamilySize` transformed raw, noisy data into potent, predictive signals. This process directly determines the maximum performance a model can achieve, often having a greater impact than the subsequent choice of algorithms or hyperparameter tuning.
 2.  **Sophisticated Imputation Matters**: Using `KNNImputer` over simple mean/median imputation provides a more robust way to handle missing data, which is crucial for model accuracy.
-3.  **Systematic Optimization**: `GridSearchCV` is an indispensable tool for tuning complex pipelines like stacking, ensuring that the final model is not just powerful in theory but also optimized in practice.
+3.  **Power of Ensembling**: This project clearly demonstrated that `StackingClassifier` can outperform individual models by combining their diverse strengths. It's a powerful technique for boosting performance.
+4.  **Systematic Optimization**: `GridSearchCV` is an indispensable tool for tuning complex pipelines like stacking, ensuring that the final model is not just powerful in theory but also optimized in practice.
